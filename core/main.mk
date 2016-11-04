@@ -532,6 +532,8 @@ subdir_makefiles := \
 ./frameworks/av/media/libstagefright/Android.mk \
 ./frameworks/av/media/utils/Android.mk \
 ./frameworks/av/media/libavextensions/Android.mk \
+./frameworks/av/media/libeffects/factory/Android.mk \
+./frameworks/av/media/libcpustats/Android.mk \
 ./frameworks/av/drm/libdrmframework/Android.mk \
 ./frameworks/av/drm/common/Android.mk \
 ./frameworks/av/services/camera/libcameraservice/Android.mk \
@@ -543,6 +545,7 @@ subdir_makefiles := \
 ./prebuilts/ndk/Android.mk \
 ./prebuilts/tools/Android.mk \
 ./prebuilts/sdk/tools/Android.mk \
+./libnativehelper/Android.mk \
 $(shell build/tools/findleaves.py --prune=out --prune=.repo --prune=.git $(subdir_makefile_dirs) Android.mk)
 
 #./frameworks/native/services/connectivitymanager/Android.mk \

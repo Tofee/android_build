@@ -552,9 +552,9 @@ $(HOST_2ND_ARCH_VAR_PREFIX)HOST_GLOBAL_CPPFLAGS += $($(HOST_2ND_ARCH_VAR_PREFIX)
 endif
 
 # allow overriding default Java libraries on a per-target basis
-ifeq ($(TARGET_DEFAULT_JAVA_LIBRARIES),)
-  TARGET_DEFAULT_JAVA_LIBRARIES := core-libart core-junit ext framework
-endif
+#ifeq ($(TARGET_DEFAULT_JAVA_LIBRARIES),)
+#  TARGET_DEFAULT_JAVA_LIBRARIES := core-libart core-junit ext framework
+#endif
 
 TARGET_CPU_SMP ?= true
 

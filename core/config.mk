@@ -78,8 +78,8 @@ BUILD_PHONY_PACKAGE:= $(BUILD_SYSTEM)/phony_package.mk
 BUILD_HOST_PREBUILT:= $(BUILD_SYSTEM)/host_prebuilt.mk
 BUILD_PREBUILT:= $(BUILD_SYSTEM)/prebuilt.mk
 BUILD_MULTI_PREBUILT:= $(BUILD_SYSTEM)/multi_prebuilt.mk
-BUILD_JAVA_LIBRARY:= $(BUILD_SYSTEM)/java_library.mk
-BUILD_STATIC_JAVA_LIBRARY:= $(BUILD_SYSTEM)/static_java_library.mk
+BUILD_JAVA_LIBRARY:= $(BUILD_SYSTEM)/clear_vars.mk
+BUILD_STATIC_JAVA_LIBRARY:= $(BUILD_SYSTEM)/clear_vars.mk
 BUILD_HOST_JAVA_LIBRARY:= $(BUILD_SYSTEM)/host_java_library.mk
 BUILD_DROIDDOC:= $(BUILD_SYSTEM)/droiddoc.mk
 BUILD_COPY_HEADERS := $(BUILD_SYSTEM)/copy_headers.mk
@@ -92,8 +92,8 @@ BUILD_STATIC_TEST_LIBRARY := $(BUILD_SYSTEM)/static_test_lib.mk
 BUILD_HOST_STATIC_TEST_LIBRARY := $(BUILD_SYSTEM)/host_static_test_lib.mk
 
 BUILD_NOTICE_FILE := $(BUILD_SYSTEM)/notice_files.mk
-BUILD_HOST_DALVIK_JAVA_LIBRARY := $(BUILD_SYSTEM)/host_dalvik_java_library.mk
-BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY := $(BUILD_SYSTEM)/host_dalvik_static_java_library.mk
+BUILD_HOST_DALVIK_JAVA_LIBRARY := $(BUILD_SYSTEM)/clear_vars.mk
+BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY := $(BUILD_SYSTEM)/clear_vars.mk
 
 
 -include cts/build/config.mk
